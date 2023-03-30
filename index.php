@@ -2,14 +2,23 @@
 
 require_once './models/Movie.php';
 
-$movie1 = new Movie();
-$movie1->title = 'Inception';
-$movie1->genre = 'thriller';
+//grazie alla classe, che funge da prototipo, creo un nuovo oggetto
+//inserendovi cio' che io decido
+$movie1 = new Movie('Inception','Thriller');
+// $movie1->title = 'Inception';
+// $movie1->genre = 'thriller';
 $movie1->director = 'Christopher Nolan';
+$movie1->releaseYear = 2010;
 
 
+$movie2 = new Movie('Alien','Horror');
+// $movie2->title = 'Alien';
+// $movie2->genre = 'Horror';
+$movie2->director = 'Ridley Scott';
+$movie2->releaseYear = 1979;
 
-var_dump($movie1);
+
+var_dump($movie1, $movie2);
 
 ?>
 
