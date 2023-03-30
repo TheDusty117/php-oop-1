@@ -1,11 +1,10 @@
 <?php
 
-class Movies {
+class Movie {
   public $title;
   public $genre;
   public $director;
 
-  function __constructor($_title, $_director)
 
 }
 

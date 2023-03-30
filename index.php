@@ -1,3 +1,18 @@
+<?php
+
+require_once './models/Movie.php';
+
+$movie1 = new Movie();
+$movie1->title = 'Inception';
+$movie1->genre = 'thriller';
+$movie1->director = 'Christopher Nolan';
+
+
+
+var_dump($movie1);
+
+?>
+
 
 <!DOCTYPE html>
 <html lang="en">
