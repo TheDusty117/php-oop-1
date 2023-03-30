@@ -32,6 +32,10 @@ var_dump($movie1->getFilmRating());
   <title>php-oop</title>
 </head>
 <body>
-  <h2>{{ $movie1->title }}</h2>
+  <div>
+    <h2>
+      <?php echo $movie1->getFullFilm() ?>
+    </h2>
+  </div>
 </body>
 </html>

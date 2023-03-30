@@ -22,6 +22,10 @@ class Movie {
     }
   
   }
+  
+  function getFullFilm(){
+    return $this->title . $this->genre . $this->director . $this->releaseYear;
+  }
 
 }
 
