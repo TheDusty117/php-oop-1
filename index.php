@@ -19,7 +19,7 @@ $movie2->releaseYear = 1979;
 
 
 var_dump($movie1, $movie2);
-
+var_dump($movie1->getFilmRating());
 ?>
 
 
@@ -32,6 +32,6 @@ var_dump($movie1, $movie2);
   <title>php-oop</title>
 </head>
 <body>
-  <h2>ciao php oop</h2>
+  <h2>{{ $movie1->title }}</h2>
 </body>
 </html>
